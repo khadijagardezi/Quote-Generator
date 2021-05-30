@@ -1,24 +1,19 @@
-// function tweetQuote() {
-//     const quote = quote.innerText;
-//     const author = authorText.innerText;
-//     const twitterURL = `https://twitter.com/intent/tweet?text=${quote}-${author}`;
-//     window.open(twitterURL, "_blank");
-// }
-
 (function() {
     // Using Array 
     const quotes = [
         {
-            quote:
+          quote:
             "When you encourage others, you in the process are encouraged because you're making a commitment and difference in that person's life. Encouragement really does make a difference.",
-            author:
+          author:
             " Zig Ziglar"
         },
+        
       {
         quote:
           "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
         author: " Life"
       },
+
       {
         quote:
         "You have to take risks. We will only understand the miracle of life fully when we allow the unexpected to happen.",
@@ -72,11 +67,12 @@
     const btn = document.getElementById("newQuote");
 
     btn.addEventListener("click", function() {
-    let changeEverytime = Math.floor(Math.random() * quotes.length);
-    // console.log(changeEverytime);
 
+    // Matth Random : will return a number
+   // we use Math.floor if we want it to be a integer  
+    
+    let changeEverytime = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").textContent = quotes[changeEverytime].quote;
     document.querySelector(".author").textContent = quotes[changeEverytime].author;
-    // document.querySelector("#twitter");
 });
 })();

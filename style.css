@@ -67,15 +67,6 @@ button {
 .author {
     color:purple;
 }
-/* button:active {
-    transform: translate(0, 1.3rem);
-    box-shadow: 0 0.1rem rgba(255, 255, 255, .64);
-} */
-/* .twitter-button {
-    font-size: 1rem;
-    color: #38a1f3;
-    background-color: white;
-} */
 @media screen and (max-width : 1000px)
 {
     .quoteContainer {
