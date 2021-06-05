@@ -75,12 +75,20 @@ button {
     #quote {
         font-size: 1.5rem;
     }
+    .btnn {
+        position: absolute;
+        z-index: 6;
+        bottom: 20px;
+        left: 20px;
+        color : purple;
+        background-color: yellow;
+    }
 }
 .btnn {
     position: absolute;
-    z-index: 6;
-    top: 50px;
-    right: 80px;
+    z-index: 7;
+    top: 30px; 
+    left: 18em;
     color : purple;
     background-color: yellow;
 }
