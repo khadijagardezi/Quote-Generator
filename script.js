@@ -68,7 +68,7 @@
 
     btn.addEventListener("click", function() {
 
-    // Matth Random : will return a number
+    // Math Random : will return a number
    // we use Math.floor if we want it to be a integer  
     
     let changeEverytime = Math.floor(Math.random() * quotes.length);
