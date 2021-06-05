@@ -70,7 +70,6 @@
 
     // Math Random : will return a number
    // we use Math.floor if we want it to be a integer  
-    
     let changeEverytime = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").textContent = quotes[changeEverytime].quote;
     document.querySelector(".author").textContent = quotes[changeEverytime].author;
